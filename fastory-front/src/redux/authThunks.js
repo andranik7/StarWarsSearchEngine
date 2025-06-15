@@ -11,6 +11,6 @@ export const loginUser = ({ username, password }) => async dispatch => {
             username: res.data.username
         }));
     } catch (err) {
-        dispatch(loginFailure('Login failed'));
+        dispatch(loginFailure("Login failed… make sure you've used credentials you gave me! 😉"));
     }
 };
