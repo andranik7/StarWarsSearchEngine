@@ -5,7 +5,7 @@ import { loginUser } from "../redux/authThunks";
 
 
 
-const SignupFields = (props) => {
+const SignupFields = () => {
     const dispatch = useDispatch();
 
     const { status, error } = useSelector(state => state.auth);

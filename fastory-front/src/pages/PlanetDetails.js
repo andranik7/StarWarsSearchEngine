@@ -5,11 +5,10 @@ import { Box, CircularProgress, Typography } from "@mui/material";
 import config from "../config";
 import { useSelector } from "react-redux";
 import axios from "axios";
-import FilmCardDetails from "../components/FilmCardDetails";
 import PlanetCardDetails from "../components/PlanetCardDetails";
 
 
-const PlanetDetails = (props) => {
+const PlanetDetails = () => {
     const { id } = useParams();
     const token = useSelector(state => state.auth.token);
 

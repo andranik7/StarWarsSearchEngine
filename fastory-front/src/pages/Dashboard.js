@@ -7,7 +7,6 @@ import CategoriesList from "../components/CategoriesList";
 
 const Dashboard = () => {
 
-
     return <div className="dashboard">
         <Header />
         <CategoriesList />

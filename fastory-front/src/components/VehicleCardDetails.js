@@ -1,4 +1,4 @@
-import { Button, Card, CardActions, CardContent, CardHeader, Grid, Typography } from "@mui/material"
+import { Card, CardContent, CardHeader, Grid, Typography } from "@mui/material"
 import PeopleCard from "./PeopleCard";
 import FilmCard from "./FilmCard";
 

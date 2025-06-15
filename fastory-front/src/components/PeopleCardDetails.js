@@ -1,7 +1,4 @@
-import { Button, Card, CardActions, CardContent, CardHeader, Grid, Typography } from "@mui/material"
-import { useNavigate } from "react-router-dom"
-import idExtractor from "../helpers/idExtractor";
-import PeopleCard from "./PeopleCard";
+import { Card, CardContent, CardHeader, Grid, Typography } from "@mui/material"
 import PlanetCard from "./PlanetCard";
 import StarshipCard from "./StarshipCard";
 import VehicleCard from "./VehicleCard";

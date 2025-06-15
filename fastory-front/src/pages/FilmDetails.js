@@ -8,7 +8,7 @@ import axios from "axios";
 import FilmCardDetails from "../components/FilmCardDetails";
 
 
-const FilmDetails = (props) => {
+const FilmDetails = () => {
     const { id } = useParams();
     const token = useSelector(state => state.auth.token);
 
