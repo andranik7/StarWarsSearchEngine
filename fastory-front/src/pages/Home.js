@@ -32,7 +32,7 @@ const Home = () => {
                 alignItems: "center",
                 p: 1,
                 mb: 4,
-                borderRadius: 10,
+                borderRadius: 2,
                 opacity: 0.9
             }}>
                 <Typography color="primary" variant="h5" >Star Wars Rebels Alliance Search System</Typography>
