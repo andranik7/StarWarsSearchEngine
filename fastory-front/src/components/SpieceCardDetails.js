@@ -8,7 +8,7 @@ import FilmCard from "./FilmCard";
 const SpieceCardDetails = (props) => {
 
     return <Card>
-        <Typography variant="h4">Specie Details</Typography>
+        <Typography variant="h4" sx={{ ml: 2, mt: 1 }}> 🧬 Specie Details</Typography>
         <CardHeader
             title={props.name}
             subheader={props.classification}

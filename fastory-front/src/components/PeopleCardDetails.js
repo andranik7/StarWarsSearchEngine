@@ -10,7 +10,7 @@ import FilmCard from "./FilmCard";
 const PeopleCardDetails = (props) => {
 
     return <Card>
-        <Typography variant="h3">Character Details</Typography>
+        <Typography variant="h4" sx={{ ml: 2, mt: 1 }}>👤✨ Character Details</Typography>
 
         <CardHeader
             title={props.name}

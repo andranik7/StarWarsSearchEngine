@@ -8,7 +8,7 @@ import FilmCard from "./FilmCard";
 const VehicleCardDetails = (props) => {
 
     return <Card>
-        <Typography variant="h4">Vehicle Details</Typography>
+        <Typography variant="h4" sx={{ ml: 2, mt: 1 }}> 🚗 Vehicle Details</Typography>
         <CardHeader
             title={props.name}
             subheader={props.model}

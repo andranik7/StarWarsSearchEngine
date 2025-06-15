@@ -293,7 +293,7 @@ const CategoriesList = () => {
             maxWidth: 200
         }}>
 
-            <Typography variant="h5" color="#ffeb02">Spieces ({filteredItems?.species?.length})</Typography>
+            <Typography variant="h5" color="#ffeb02">Species ({filteredItems?.species?.length})</Typography>
         </Box>
         <Grid
             container

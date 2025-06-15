@@ -10,7 +10,7 @@ import SpieceCard from "./SpieceCard";
 const FilmCardDetails = (props) => {
 
     return <Card>
-        <Typography variant="h4">Film Details</Typography>
+        <Typography variant="h4" sx={{ ml: 2, mt: 1 }}> 🎥 Film Details</Typography>
         <CardHeader
             title={props.title}
             subheader={props.producer}

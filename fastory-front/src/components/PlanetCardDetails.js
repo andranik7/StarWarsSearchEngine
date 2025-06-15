@@ -8,7 +8,7 @@ import FilmCard from "./FilmCard";
 const PlanetCardDetails = (props) => {
 
     return <Card>
-        <Typography variant="h4">Planet Details</Typography>
+        <Typography variant="h4" sx={{ ml: 2, mt: 1 }}> 🪐 Planet Details</Typography>
         <CardHeader
             title={props.name}
             subheader={props.terrain}
