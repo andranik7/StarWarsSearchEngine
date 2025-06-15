@@ -1,0 +1,22 @@
+{
+  "name": "fastory-server",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@hapi/basic": "^7.0.2",
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.4.0",
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hapi-auth-jwt2": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1"
+  }
+}
