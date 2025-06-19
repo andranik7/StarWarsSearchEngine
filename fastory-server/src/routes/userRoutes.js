@@ -11,7 +11,7 @@ import * as Boom from '@hapi/boom';
 const users = {
   Luke: {
     username: 'Luke',
-    password: '$2a$04$F1Ct/q5kROtOpi5cwDu7MeTrrAmyivdLp91N3BIVGDntkGzaGXc5S',   // il s'agit du hash du mot de passe $2y$10$a597D6zByzDKDbR7I4OlwetInG4pbNmNp4gMB7tEX3HGRLWy6yag2
+    password: '$2a$04$F1Ct/q5kROtOpi5cwDu7MeTrrAmyivdLp91N3BIVGDntkGzaGXc5S',   // il s'agit du hash du mot de passe DadSucks
     name: 'Luke Doe',
     id: '123456'
   }

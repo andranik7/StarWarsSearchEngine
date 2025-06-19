@@ -23,8 +23,6 @@ const CategoriesList = () => {
     const [filteredItems, setFilteredItems] = useState([])
 
 
-    console.log(items)
-
     const onGetCategories = () => {
         dispatch(getCategories());
     }
